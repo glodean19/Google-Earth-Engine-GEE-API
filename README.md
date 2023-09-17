@@ -5,3 +5,6 @@ Setting up and exploring Google Earth Engine to gain some hands-on experience wo
 
 A typical deliverable for this task could be extracting elevation for a particular coordinate and validating it with real-world data.
 
+IMPORTANT
+Google Earth engine uses Google Cloud, therefore before to run the script, you need gcloud instelled on your computer. GEE will work with connecting to your Goggle Account for authentication and it will provide you with a token to add in the code when running ee.authenticate(). Add the token in the code and press enter to get authorisation before to move to ee.initialize().
+Here a useful link https://courses.spatialthoughts.com/install-gee-python-api.html
